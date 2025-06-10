@@ -2,7 +2,13 @@ import { getPostBySlug } from "@/lib/posts";
 import { marked } from "marked";
 import { notFound } from "next/navigation";
 
-export default async function PostPage({ params }: { params: { slug: string } }) {
+interface PostPageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default async function PostPage({ params }: PostPageProps) {
   // Fetch the post by slug
   const { slug } = await params;
   const post = getPostBySlug(slug);
