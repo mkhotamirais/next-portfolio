@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { getAllPosts } from "@/lib/posts";
+import { getAllPosts } from "@/lib/postsAsync";
 import { Button } from "@/components/ui/button";
 
-export default function SectionPosts() {
-  const posts = getAllPosts();
+export default async function SectionPosts() {
+  const posts = await getAllPosts();
 
   return (
     <section className="py-12" id="posts">

@@ -1,11 +1,11 @@
-import { getPostBySlug } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/postsAsync";
 import { marked } from "marked";
 import { notFound } from "next/navigation";
 import React from "react";
 
 export default async function PostPage({ params }: { params: { slug: string } }) {
   const { slug } = await params;
-  const post = getPostBySlug(slug);
+  const post = await getPostBySlug(slug);
   if (!post) return notFound();
 
   const html = marked(post.content);
