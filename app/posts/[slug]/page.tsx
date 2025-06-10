@@ -1,9 +1,14 @@
+"use client";
+
 import { getPostBySlug } from "@/lib/posts";
 import { marked } from "marked";
-import { notFound } from "next/navigation";
+import { notFound, useParams } from "next/navigation";
+import React from "react";
 
-export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params.slug);
+export default function PostPage() {
+  const params = useParams();
+  const slug = params.slug as string;
+  const post = getPostBySlug(slug);
   if (!post) return notFound();
 
   const html = marked(post.content);
