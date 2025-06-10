@@ -1,25 +1,22 @@
-// import { getPostBySlug } from "@/lib/posts";
-// import { marked } from "marked";
-// import { notFound, useParams } from "next/navigation";
+import { getPostBySlug } from "@/lib/posts";
+import { marked } from "marked";
+import { notFound } from "next/navigation";
 import React from "react";
 
-export default function PostPage() {
-  // const params = useParams();
-  // const slug = params.slug as string;
-  // const post = getPostBySlug(slug);
-  // if (!post) return notFound();
+export default function PostPage({ params }: { params: { slug: string } }) {
+  const post = getPostBySlug(params?.slug);
+  if (!post) return notFound();
 
-  // const html = marked(post.content);
+  const html = marked(post.content);
 
   return (
     <section className="section">
       <div className="container">
-        <p>kosong</p>
-        {/* <article className="prose">
+        <article className="prose">
           <h1 className="h1">{post.meta.title}</h1>
           <p className="text-sm text-gray-500">{post.meta.date}</p>
           <div dangerouslySetInnerHTML={{ __html: html }} />
-        </article> */}
+        </article>
       </div>
     </section>
   );
