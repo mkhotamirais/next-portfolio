@@ -3,8 +3,9 @@ import { marked } from "marked";
 import { notFound } from "next/navigation";
 import React from "react";
 
-export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = getPostBySlug(params?.slug);
+export default async function PostPage({ params }: { params: { slug: string } }) {
+  const { slug } = await params;
+  const post = getPostBySlug(slug);
   if (!post) return notFound();
 
   const html = marked(post.content);
