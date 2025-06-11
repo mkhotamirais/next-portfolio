@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import React from "react";
 
 export default async function PostPage({ params }: { params: { slug: string } }) {
-  const { slug } = await params;
+  const slug = await params.slug;
   const post = await getPostBySlug(slug);
   if (!post) return notFound();
 
