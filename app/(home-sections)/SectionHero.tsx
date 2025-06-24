@@ -43,11 +43,11 @@ export default function SectionHero() {
                 </DropdownMenuContent>
               </DropdownMenu>
               <a href={c.links["github"]} aria-label="GitHub Profile">
-                <Button variant={"secondary"} size="icon">
+                <Button variant={"secondary"} size="icon" aria-label="GitHub Profile">
                   <FaGithub className="text-lg" />
                 </Button>
               </a>
-              <a href={c.links["linkedin"]} aria-label="GitHub Profile">
+              <a href={c.links["linkedin"]} aria-label="Linkedin Profile">
                 <Button variant={"secondary"} size="icon">
                   <FaLinkedinIn className="text-lg" />
                 </Button>

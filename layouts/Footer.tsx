@@ -11,7 +11,7 @@ export default function Footer() {
                 Built with Next.js, ShadCN, and deployed on Vercel and Posts written in Markdown
                 <br />
                 by{" "}
-                <Link href="https://mkhotami.com" className="text-link">
+                <Link href="https://mkhotami.com" className="text-primary">
                   Mkhotami
                 </Link>{" "}
                 in 2025

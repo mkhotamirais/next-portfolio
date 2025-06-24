@@ -8,6 +8,7 @@ import Footer from "@/layouts/Footer";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/logo-mkhotami-favicon.png" />
+      </head>
       <body className={`${inter.variable} font-sans antialiased min-h-screen flex flex-col bg-background`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Header />
