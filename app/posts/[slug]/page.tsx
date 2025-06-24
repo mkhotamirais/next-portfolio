@@ -12,9 +12,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
 
   return (
     <section className="section">
-      <div>{slug}</div>
       <div className="container">
-        <article className="prose">
+        <article className="prose dark:prose-invert">
           <h1 className="h1">{post.meta.title}</h1>
           <p className="text-sm text-gray-500">{post.meta.date}</p>
           <div dangerouslySetInnerHTML={{ __html: html }} />
