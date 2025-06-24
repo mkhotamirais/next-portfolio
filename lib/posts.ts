@@ -32,3 +32,10 @@ export function getPostBySlug(slug: string) {
     content,
   };
 }
+
+export function getAllSlugs() {
+  return fs
+    .readdirSync(postsDir)
+    .filter((file) => file.endsWith(".md"))
+    .map((file) => file.replace(/\.md$/, ""));
+}
