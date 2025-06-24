@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { IPostMeta } from "./types";
 
 const postsDir = path.join(process.cwd(), "posts");
 
@@ -15,7 +16,7 @@ export function getAllPosts() {
 
     return {
       slug,
-      meta: data,
+      meta: data as IPostMeta,
       content,
     };
   });
@@ -28,7 +29,7 @@ export function getPostBySlug(slug: string) {
 
   return {
     slug,
-    meta: data,
+    meta: data as IPostMeta,
     content,
   };
 }

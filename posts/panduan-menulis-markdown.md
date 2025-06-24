@@ -1,9 +1,10 @@
 ---
 title: "Panduan Penulisan Markdown untuk Blog Next.js"
-description: "Pelajari cara menulis artikel blog menggunakan Markdown dengan struktur dan sintaks yang rapi untuk Next.js App Router."
-author: "Khotami Rais"
 date: "2025-06-23"
-tags: ["Markdown", "Next.js", "Blog", "Panduan"]
+category: "nextjs"
+# description: "Pelajari cara menulis artikel blog menggunakan Markdown dengan struktur dan sintaks yang rapi untuk Next.js App Router."
+# author: "Khotami Rais"
+# tags: ["Markdown", "Next.js", "Blog", "Panduan"]
 ---
 
 ## 📘 Pendahuluan
