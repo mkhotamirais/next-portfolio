@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { getAllPosts } from "@/lib/postsAsync";
 import { Button } from "@/components/ui/button";
+import { getAllPosts } from "@/lib/posts";
 
 export default async function SectionPosts() {
   const posts = await getAllPosts();

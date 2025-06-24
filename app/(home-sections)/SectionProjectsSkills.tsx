@@ -28,20 +28,20 @@ import {
 
 export const projects = [
   {
-    title: "Nurul Iman Sindangkerta",
-    url: "https://nuruliman-sindangkerta.sch.id",
-    image: "/logos/logo-yayasan-nurul-iman-sindangkerta.png",
-    skills: "laravel - vue - inertia",
+    title: "Warungota",
+    url: "https://warungota.com",
+    image: "/logos/logo-warungota.png",
+    skills: "Next.js - Mongodb - Express - React - Node.js",
     skillsIcons: (
       <>
-        <SiLaravel /> <SiVuedotjs /> <SiInertia />
+        <SiNextdotjs /> <SiMongodb /> <SiExpress /> <SiReact /> <SiNodedotjs />
       </>
     ),
   },
   {
-    title: "Rentallombok",
-    url: "https://rentallombok.id",
-    image: "/logos/logo-rentallombok.png",
+    title: "Nurul Iman Sindangkerta",
+    url: "https://nuruliman-sindangkerta.sch.id",
+    image: "/logos/logo-yayasan-nurul-iman-sindangkerta.png",
     skills: "laravel - vue - inertia",
     skillsIcons: (
       <>
@@ -72,6 +72,17 @@ export const projects = [
     ),
   },
   {
+    title: "Rentallombok",
+    url: "https://rentallombok.id",
+    image: "/logos/logo-rentallombok.png",
+    skills: "laravel - vue - inertia",
+    skillsIcons: (
+      <>
+        <SiLaravel /> <SiVuedotjs /> <SiInertia />
+      </>
+    ),
+  },
+  {
     title: "Next - BaaS",
     url: "https://next-baas.vercel.app",
     image: "/logo-mkhotami.png",
@@ -79,17 +90,6 @@ export const projects = [
     skillsIcons: (
       <>
         <SiNextdotjs /> <SiFirebase /> <SiSupabase /> <SiAppwrite />
-      </>
-    ),
-  },
-  {
-    title: "Next - MERN",
-    url: "https://next-mern-mkhotami.vercel.app",
-    image: "/logo-mkhotami.png",
-    skills: "Next.js - Mongodb - Express - React - Node.js",
-    skillsIcons: (
-      <>
-        <SiNextdotjs /> <SiMongodb /> <SiExpress /> <SiReact /> <SiNodedotjs />
       </>
     ),
   },
