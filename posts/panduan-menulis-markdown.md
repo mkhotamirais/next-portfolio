@@ -1,37 +1,54 @@
 ---
-title: "Panduan Menulis Markdown untuk Blog di Next.js"
-description: "Pelajari cara menulis artikel menggunakan Markdown untuk blog statis di Next.js App Router."
+title: "Panduan Penulisan Markdown untuk Blog Next.js"
+description: "Pelajari cara menulis artikel blog menggunakan Markdown dengan struktur dan sintaks yang rapi untuk Next.js App Router."
 author: "Khotami Rais"
 date: "2025-06-23"
-tags: ["Markdown", "Next.js", "Blog"]
+tags: ["Markdown", "Next.js", "Blog", "Panduan"]
 ---
 
-## Pendahuluan
+## 📘 Pendahuluan
 
-Markdown adalah format teks ringan yang sangat populer digunakan untuk menulis dokumentasi, artikel, atau konten blog. Dengan Next.js, kita bisa menggunakan file `.md` sebagai sumber konten statis untuk blog, tanpa perlu database.
+Markdown adalah format teks ringan yang memungkinkan kamu menulis artikel dengan gaya yang bersih dan mudah dibaca. Markdown digunakan secara luas di GitHub, Notion, dan kini sangat cocok dipakai untuk membuat **blog statis di Next.js**.
 
-Artikel ini akan membahas:
-
-- Apa itu Markdown
-- Sintaks dasar Markdown
-- Tips membuat artikel blog yang rapi
-- Integrasi dengan Next.js App Router
+Dengan menggabungkan kekuatan Markdown dan Next.js App Router, kamu bisa menulis artikel dalam file `.md` dan menampilkannya sebagai halaman blog tanpa perlu database atau CMS.
 
 ---
 
-## Apa Itu Markdown?
+## ✍️ Struktur Dasar Markdown
 
-Markdown adalah format teks yang mudah dibaca dan ditulis. Dibuat oleh John Gruber dan Aaron Swartz, tujuannya adalah agar penulis bisa membuat dokumen web tanpa menulis HTML langsung.
+### 1. Heading
 
----
-
-## Sintaks Dasar Markdown
-
-### 1. Judul
-
-Gunakan `#` untuk membuat heading:
+Gunakan tanda `#` untuk membuat judul.
 
 ```md
-# Judul H1
-## Judul H2
-### Judul H3
+# Judul Utama
+## Subjudul
+### Sub-subjudul
+```
+
+### 2. Penekanan
+
+**tebal**, *miring*, ~~coret~~
+
+### 3. Daftar
+
+- Item pertama
+- Item kedua
+- Item ketiga
+
+1. Langkah pertama
+2. Langkah kedua
+
+### 4. Link dan Gambar
+
+[Google](https://www.google.com)
+
+![Kucing Lucu](https://placekitten.com/400/300)
+
+### 5. Code
+
+```js
+function hello() {
+  console.log("Hello Markdown!");
+}
+```

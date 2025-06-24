@@ -1,4 +1,4 @@
-import { getAllSlugs, getPostBySlug } from "@/lib/posts";
+import { getPostBySlug } from "@/lib/posts";
 import { marked } from "marked";
 import { notFound } from "next/navigation";
 import React from "react";
@@ -13,17 +13,8 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   return (
     <section className="section">
       <div className="container">
-        <article className="prose dark:prose-invert">
-          <h1 className="h1">{post.meta.title}</h1>
-          <p className="text-sm text-gray-500">{post.meta.date}</p>
-          <div dangerouslySetInnerHTML={{ __html: html }} />
-        </article>
+        <article className="prose dark:prose-invert" dangerouslySetInnerHTML={{ __html: html }}></article>
       </div>
     </section>
   );
-}
-
-export async function generateStaticParams() {
-  const slugs = await getAllSlugs(); // misalnya ['hello-world', 'nextjs-tips']
-  return slugs.map((slug) => ({ slug }));
 }

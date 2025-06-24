@@ -1,5 +1,12 @@
 import { getAllPosts } from "@/lib/posts";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Articles & Blog | Mkhotami - Web Development Insights",
+  description:
+    "Read insightful articles and blog posts by Mkhotami on web development, covering topics like React, Laravel, WordPress, performance optimization, and best practices.",
+};
 
 export default function Posts() {
   const posts = getAllPosts();

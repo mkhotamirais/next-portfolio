@@ -24,6 +24,13 @@ import {
   SiWordpress,
 } from "react-icons/si";
 import { projects } from "../(home-sections)/SectionProjectsSkills";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects | Mkhotami - Web Development Portfolio",
+  description:
+    "Explore a collection of Mkhotami's web development projects, built with technologies like React, Next.js, Laravel, and WordPress. Real-world solutions focused on performance and usability.",
+};
 
 export default function Projects() {
   return (

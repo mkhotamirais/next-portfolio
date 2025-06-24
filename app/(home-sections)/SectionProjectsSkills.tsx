@@ -34,7 +34,7 @@ export const projects = [
     skills: "Next.js - Mongodb - Express - React - Node.js",
     skillsIcons: (
       <>
-        <SiNextdotjs /> <SiMongodb /> <SiExpress /> <SiReact /> <SiNodedotjs />
+        <SiNextdotjs /> <SiShadcnui /> <SiMongodb /> <SiExpress /> <SiReact /> <SiNodedotjs />
       </>
     ),
   },
@@ -61,13 +61,13 @@ export const projects = [
     ),
   },
   {
-    title: "Katanata",
-    url: "https://katanata.com",
-    image: "/logos/logo-katanata.png",
-    skills: "WordPress - Elementor",
+    title: "Next - Client",
+    url: "https://next-client-mkhotami.vercel.app",
+    image: "/logos/logo-mkhotami.png",
+    skills: "Next.js - Shadcn - Publicapi - Motion - Scrollmagic - GSAP",
     skillsIcons: (
       <>
-        <SiWordpress /> <SiElementor />
+        <SiNextdotjs /> <SiShadcnui />
       </>
     ),
   },
