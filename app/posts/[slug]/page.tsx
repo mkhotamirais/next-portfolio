@@ -3,7 +3,7 @@ import { marked } from "marked";
 import { notFound } from "next/navigation";
 import React from "react";
 
-export default async function PostPage({ params }: { params: { slug: string } }) {
+export default async function PostPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = await getPostBySlug(slug);
   if (!post) return notFound();
