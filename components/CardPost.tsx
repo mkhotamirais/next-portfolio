@@ -11,7 +11,7 @@ export default function CardPost({ post }: { post: IPost }) {
       className="group space-y-2 relative border rounded-md p-2 bg-muted-foreground/5 hover:bg-muted-foreground/10 transition-all"
     >
       <h3 className="font-semibold">{post.meta.title}</h3>
-      <div className="flex gap-1">
+      <div className="flex flex-wrap gap-1">
         <Badge>{post.meta.category}</Badge> |
         {post.meta.tags?.map((tag) => (
           <Badge key={tag}>{tag}</Badge>
