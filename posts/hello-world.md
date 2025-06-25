@@ -1,8 +1,9 @@
 ---
 title: "Hello World!"
-date: "2025-06-09"
-category: "reactjs"
-# excerpt: "Ini adalah post pertama saya di blog portfolio."
+date: "2025-06-24"
+category: "coding"
+tags: ["templae", "en"]
+excerpt: "Ini adalah post pertama saya di blog portfolio."
 ---
 
-kategory react
+hello world

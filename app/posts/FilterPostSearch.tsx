@@ -7,7 +7,7 @@ import { Search } from "lucide-react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useDebouncedCallback } from "use-debounce";
 
-export default function SearchPost() {
+export default function FilterPostSearch() {
   const { search, setSearch } = usePostStore();
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -16,6 +16,7 @@ export default function SearchPost() {
   const onSearch = useDebouncedCallback((e: string) => {
     if (e) {
       urlParams.set("postq", e);
+      urlParams.set("postpage", "1");
     } else {
       urlParams.delete("postq");
     }

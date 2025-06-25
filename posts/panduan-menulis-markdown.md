@@ -1,55 +1,142 @@
 ---
-title: "Panduan Penulisan Markdown untuk Blog Next.js"
+title: "Panduan Lengkap Markdown"
 date: "2025-06-23"
-category: "nextjs"
-# description: "Pelajari cara menulis artikel blog menggunakan Markdown dengan struktur dan sintaks yang rapi untuk Next.js App Router."
-# author: "Khotami Rais"
-# tags: ["Markdown", "Next.js", "Blog", "Panduan"]
+excerpt: "Pelajari semua sintaks dan fitur Markdown mulai dari dasar hingga lanjutan."
+category: "markdown"
+tags: ["id", "panduan"]
 ---
 
-## 📘 Pendahuluan
+# Panduan Lengkap Markdown
 
-Markdown adalah format teks ringan yang memungkinkan kamu menulis artikel dengan gaya yang bersih dan mudah dibaca. Markdown digunakan secara luas di GitHub, Notion, dan kini sangat cocok dipakai untuk membuat **blog statis di Next.js**.
+Markdown adalah bahasa markup ringan yang digunakan untuk menulis teks dengan struktur yang bersih dan mudah dibaca. Markdown banyak digunakan di GitHub, Notion, serta cocok untuk membuat blog statis di Next.js.
 
-Dengan menggabungkan kekuatan Markdown dan Next.js App Router, kamu bisa menulis artikel dalam file `.md` dan menampilkannya sebagai halaman blog tanpa perlu database atau CMS.
+## 📑 Daftar Isi
 
----
+- [Dasar Penulisan](#dasar-penulisan)
+- [Penataan dan Pemformatan](#penataan-dan-pemformatan)
+- [Kode dan Data](#kode-dan-data)
+- [Konten Interaktif dan HTML](#konten-interaktif-dan-html)
+- [Fitur Tambahan Markdown](#fitur-tambahan-markdown)
 
-## ✍️ Struktur Dasar Markdown
+## Dasar Penulisan
 
-### 1. Heading
-
-Gunakan tanda `#` untuk membuat judul.
+### Heading
 
 ```md
-# Judul Utama
-## Subjudul
-### Sub-subjudul
+# h1 judul
+## h2 sub-judul
+###### h6 hingga h6
+```
+# heading1
+## heading2
+###### heading6
+
+### Paragraf dan Baris Baru
+Tulis paragraf langsung.
+
+baris baru bisa dengan dua spasi di akhir baris
+
+### Garis Horizontal
+```md
+---
+```
+---
+
+### Blockquote
+```md
+> Kutipan
+>> Kutipan bersarang
+```
+> Kutipan
+
+>> Kutipan bersarang
+
+
+## Penataan dan Pemformatan
+
+### Penekanan
+```md
+**tebal1** __tebal2__ *miring1* _miring2_ **_tebal miring_** ~~coret~~ `kode inline`
+```
+**tebal1** __tebal2__ *miring1* _miring2_ **_tebal miring_** ~~coret~~ `kode inline`
+
+### Daftar
+```md
+- List tak berurut
+- List tak berurut
+1. List berurut
+2. List berurut
+- [x] Checklist
+```
+- List tak berurut
+- List tak berurut
+1. List berurut
+2. List berurut
+- [x] Checklist
+- [ ] Checklist kosong
+
+### Link dan Gambar
+```md
+[Go to Google](https://google.com)
+![Gambar Saya](/logo-mkhotami.png)
+```
+[Go to Google](https://google.com)
+![Gambar Saya](/logo-mkhotami.png)
+<!-- kecilkan gambarnya -->
+
+## Kode dan Data
+
+### Code Block
+```js
+console.log("hello, markdown!")
+```
+console.log("hello, markdown!")
+
+### Tabel
+```md
+| Nama | Umur |
+|------|------|
+| Ahmad  | 24   |
+| Siti | 22   |
+```
+| Nama | Umur |
+|------|------|
+| Ahmad  | 24   |
+| Siti | 22   |
+
+## Konten Interaktif dan HTML
+```md
+<u>Garis bawah</u>
+<mark>Highlight</mark>
+<small>Teks kecil</small>
+
+<details>
+  <summary>Lihat Detail</summary>
+  Ini adalah konten tersembunyi.
+</details>
+```
+<u>Garis bawah</u>
+<mark>Highlight</mark>
+<small>Teks kecil</small>
+
+<details>
+  <summary>Lihat Detail</summary>
+  Ini adalah konten tersembunyi.
+</details>
+
+## Fitur Tambahan Markdown
+### Formatter Metadata
+```md
+---
+title: "Judul Artikel"
+date: "2025-06-25"
+excerpt: "Ringkasan isi artikel."
+tags: ["markdown", "nextjs"]
+---
 ```
 
-### 2. Penekanan
-
-**tebal**, *miring*, ~~coret~~
-
-### 3. Daftar
-
-- Item pertama
-- Item kedua
-- Item ketiga
-
-1. Langkah pertama
-2. Langkah kedua
-
-### 4. Link dan Gambar
-
-[Google](https://www.google.com)
-
-![Kucing Lucu](https://placekitten.com/400/300)
-
-### 5. Code
-
-```js
-function hello() {
-  console.log("Hello Markdown!");
-}
+### Daftar Isi Manual
+```md
+- [Judul](#judul)
+- [Subjudul](#subjudul)
 ```

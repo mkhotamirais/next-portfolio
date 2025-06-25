@@ -123,13 +123,17 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a,
 button {
   @apply cursor-pointer;
 }
 
 .section {
-  @apply min-h-y py-3;
+  @apply min-h-y py-4;
 }
 
 .container {
@@ -150,4 +154,10 @@ button {
 
 .text-link {
   @apply text-blue-600 font-medium hover:underline;
+}
+
+.prose {
+  h2 {
+    @apply scroll-mt-18;
+  }
 }
