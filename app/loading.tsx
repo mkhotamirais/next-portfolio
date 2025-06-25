@@ -5,7 +5,7 @@ export default function Loading() {
   return (
     <section className="scroll-mt-20">
       <div className="container flex justify-center py-8">
-        <Pending />;
+        <Pending />
       </div>
     </section>
   );
