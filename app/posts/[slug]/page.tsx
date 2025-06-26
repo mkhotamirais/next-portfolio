@@ -47,7 +47,7 @@ export default async function PostPage({ params }: { params: Promise<{ slug: str
   const html = marked(post.content, { renderer });
 
   return (
-    <section className="section scroll-mt-18">
+    <section className="py-4">
       <div className="container">
         <article className="prose dark:prose-invert" dangerouslySetInnerHTML={{ __html: html }}></article>
       </div>
