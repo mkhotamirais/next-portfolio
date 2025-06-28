@@ -11,7 +11,7 @@ export default function About() {
             alt="profile mkhotami"
             width={100}
             height={100}
-            className="w-42 mr-4 mb-4 rounded-lg h-auto float-left object-cover object-center dark:invert"
+            className="w-42 h-56 mr-4 mb-4 rounded-lg float-left object-cover object-center dark:grayscale"
           />
           <h3>Introduction</h3>
           <p>
