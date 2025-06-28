@@ -148,7 +148,7 @@ export default function SectionProjectsSkills() {
           <SiMongodb />
           <SiMysql />
         </div>
-        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-2">
           {projects.slice(0, 4).map((project, index) => (
             <a
               key={index}

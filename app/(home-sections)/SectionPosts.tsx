@@ -4,13 +4,13 @@ import { getAllPosts } from "@/lib/posts";
 import CardPost from "@/components/CardPost";
 
 export default async function SectionPosts() {
-  const posts = await getAllPosts();
+  const posts = await getAllPosts(4);
 
   return (
     <section className="py-12" id="posts">
       <div className="container">
-        <h2 className="h2">Posts</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <h2 className="h2">Latest Posts</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
           {posts.map((post, i) => (
             <CardPost key={i} post={post} />
           ))}

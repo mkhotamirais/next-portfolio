@@ -9,6 +9,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Link from "next/link";
 
 export default function SectionHero() {
   return (
@@ -20,7 +21,10 @@ export default function SectionHero() {
             <p className="leading-relaxed text-muted-foreground">
               I’m a fullstack web developer with expertise in
               <span className="text-primary font-medium"> Next.js, Laravel, and WordPress. </span>I currently work as a
-              freelance web developer, helping businesses build modern and scalable websites.
+              freelance web developer, helping businesses build modern and scalable websites.{" "}
+              <Link href="/about" className="underline text-primary">
+                More about me
+              </Link>
             </p>
             <div className="flex items-center gap-2">
               <DropdownMenu>
