@@ -5,13 +5,13 @@ export default function About() {
     <section className="py-4">
       <div className="container">
         <h1 className="h1">About Me</h1>
-        <article className="prose">
+        <article className="prose dark:prose-invert">
           <Image
             src="/profile-mkhotami-tengah.jpg"
             alt="profile mkhotami"
             width={100}
             height={100}
-            className="w-42 mr-4 mb-4 rounded-lg h-auto float-left object-cover object-center"
+            className="w-42 mr-4 mb-4 rounded-lg h-auto float-left object-cover object-center dark:invert"
           />
           <h3>Introduction</h3>
           <p>
