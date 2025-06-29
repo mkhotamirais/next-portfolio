@@ -11,6 +11,7 @@ excerpt: "Ini adalah post pertama saya di blog portfolio."
 ## 📑 Daftar Isi
 
 - [Pendahuluan](#pendahuluan)
+- [mulai bisnis website](#mulai-bisnis-website)
 - [Homepage](#homepage)
 - [Footer](#footer)
 - [Yang Membuat Website Burul](#yang-membuat-website-buruk)
@@ -27,11 +28,14 @@ Web designer bersaing untuk waktu dan energi orang. Kebanyaan orang "memindai" w
 
 Baik atau buruknya website lebih tergantung pada baik buruknya UX daripada UI.
 
-# Mulai Bisnis Website
-1. Gunakan google analytic dan google search console.
-2. Perlu ada blog.
-3. Kumpulkan email pengunjung dengan cara menawarkan ebook atau subscribe newsletter.
-4. blajar mengedit area yang biasanya berubah pada website
+## Bisnis Website
+
+Gunakan google analytic dan google search console. Perlu ada blog. Kumpulkan email pengunjung dengan cara menawarkan ebook atau subscribe newsletter. belajar mengedit area yang biasanya berubah pada website
+
+### Portfolio Website
+**Hindari** Menambah animasi seperti: typewrite effect, particle backround, cursor trails, kelihatan gimic. Skillbar yang sangat subjektif. Tidak punya about page: pokonya bahas apapun tentang dirimu dalam satu page.
+
+**Tips** Portfolio jangan 1 page, setidaknya 4 pages: home, about, projects, contact. Homepage insinya section section yang berisi semua page yang lain dengan tombol yang mengarah ke page yang dituju. misalnya di homepage hanya memnceritakan dirimu dengan 1 paragraf, di about page pakai 5 paragraf. hero harus menjawab: who are you? what do you do? and ho you can help me?. harus ada foto kamu nya, setidaknya buat 2, untuk homepage dan about page
 
 ## Homepage (struktur dan design)
 ### 3 Hal yang membuat Homepage buruk
@@ -50,6 +54,12 @@ bawah, scroll untuk informasi.
 - Pages penggugah pengunjung, seperti testimoni, review, studi kasus, portfolio atau daftar brand yang bekerja denganmu.
 - CTA
 
+## Layout
+### Prinsip dasar
+1. Setiap page terdiri dari baris dan tiap baris beda ide, jadi jangan ada satu baris yang punya lebih dari satu ide, tiap baris juga berbeda secara visual dengan background berbeda.
+2. Background di setiap baris jangan sama berturut turut, kecuali ada visual pembedanya, gunakan setidaknya 3 warna, putih, abu dan warna primary serta background image. Tiap baris perlu ada padding atas dan bawah.
+3. Kontent diperlukan lebih dahulu sebelum membuat layout.
+
 ## Footer
 
 **Penggunaan dan Tipe** Penggunaannya adalah tempat di mana content tidak ada di navigasi utama, seperti informasi kontak atau page yang jarang digunakan. Footer itu perlu untuk mengikuti "Praktik Terbaik". Tipenya ada 3: normal, infinite scroll/Mini, Contextual (normal & infinite)
@@ -64,7 +74,7 @@ bawah, scroll untuk informasi.
 1. Slider, Autoplay, Marquee, orang menggunakannya karena kelihatan bagus, Orang merasa scroll itu menakutkan, jadi konten website dimasukan ke dalam ruang kecil, Promosi konten penting dan pengumuman.
 2. Nav: harus selalu di atas, kultivasi buat mobile nav pada desktop nav, sticky nav tanpa background, logo tanpa nama, tidak ada beranda/home tidak banyak orang tahu bahwa logo itu menuju home. hamburger icon yang tidak seperti hamburger icon. perlu arrow down untuk menu yang punya submenu.
 3. Tombol: Buat tombol bermakna, tidak "submit" tapi "publish", tidak kotak besar, icon tidak umum tanpa tulisan, toombol kotak besar, warna cta sama dengan warna lainnya.
-4. Text Align: Jangan align center tulisan yang lebih dari 3 baris, apalagi justify center, lebih lagi align right.
+4. Text Align tidak tepat: _Align left_ paling umum digunakan. _Align center_ untuk tulisan yang kurang dari 3, sedikit baris dan sempit, heading, atau konten di bawah heading, seperti untuk 1 baris yang berisi 3 kolom. _Justify center_ untuk minimal teks atau design mewah, atau media statis seperti majalah atau buku. _Align right_ hanya untuk nav.
 5. Splash pages: menampilkan tombol untuk menampilkan tampilan page.
 6. Animsi: customize cursor, kebanyakan animasi, preload, iniial animasi yang lambat. typewriter changing effects. jangan buat banyak hover untuk melihat content.
 7. Hero: Hero section yang menutupi semua screen. judul h1 yang tidak jelas, atau kalimatnya tidak selesai. text di atas background color yang overlaynya tidak cukup untuk membuat tulisan terlihat.

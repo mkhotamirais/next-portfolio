@@ -10,7 +10,9 @@ export default function Header() {
         <Logo />
         <div className="flex items-center gap-2">
           <NavDesktop />
-          <ThemeToggle />
+          <div className="hidden md:flex">
+            <ThemeToggle />
+          </div>
           <NavMobile />
         </div>
       </div>

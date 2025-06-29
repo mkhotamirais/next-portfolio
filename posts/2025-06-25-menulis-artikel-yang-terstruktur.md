@@ -8,6 +8,14 @@
 
 # Menulis Artikel yang Terstruktur
 
+## Daftar Isi
+- [Intro](#intro)
+- [Judul](#judul)
+- [Pendahuluan](#pendahuluan)
+- [Isi](#isi-pembahasan-utama)
+- [Penutup](#penutup-kesimpulan)
+
+## Intro
 Menulis artikel bukan hanya soal menyampaikan ide, tapi juga bagaimana ide itu disusun agar dapat dipahami pembaca dengan jelas. Banyak orang memiliki ide yang bagus, namun kesulitan mengubahnya menjadi tulisan yang terstruktur.
 
 Artikel ini ditulis sebagai panduan dasar untuk membantu kamu — dan saya sendiri — dalam membangun struktur penulisan yang rapi, sistematis, dan logis. Dengan memahami struktur yang baik, proses menulis akan terasa lebih mudah, dan pesan yang ingin disampaikan akan lebih kuat dan efektif.
@@ -57,7 +65,7 @@ Contoh:
 - Fokus menjawab _"Kenapa artikel ini penting?"_.
 - Tunjukan ke pembaca: _"Saya tahu masalahmu, dan saya punya solusi"_
 
-## Isi / Pembahasan Utama
+## Isi Pembahasan Utama
 ### Fungsi isi artikel
 - Menyampaikan gagasan utama secara sistematis.
 - Memberikan penjelasan, data, opini, atau contoh.
@@ -80,7 +88,7 @@ Contoh:
 - Satu paragraf = satu ide.
 - Jangan takut menghapus bagian yang tidak penting, kualitas lebih penting daripanjang.
 
-## Penutup / Kesimpulan
+## Penutup Kesimpulan
 Setiap tulisan yang baik harus punya akhir yang jelas. Penutup berfungsi untuk merangkum, memantapkan pemahaman pembaca, dan kadang memberi dorongan untuk bertindak atau berpikir lebih jauh.
 
 ### Fungsi Penutup
