@@ -13,24 +13,24 @@ export default function Contact() {
           just want to say hi — feel free to reach out.
         </p>
         <div className="flex flex-col gap-2">
-          <a href={c.links.mail}>
+          <a href={c.links.mail} className="w-fit">
             <Button size={"lg"} variant={"link"} className="!pl-0">
               <FaEnvelope />
               tami01.job@gmail.com
             </Button>
           </a>
-          <a href={c.links.wa}>
+          <a href={c.links.wa} className="w-fit">
             <Button size={"lg"} variant={"link"} className="!pl-0">
               <FaWhatsapp />
               +62 877-6660-6133
             </Button>
           </a>
-          <a href={c.links.linkedin}>
+          <a href={c.links.linkedin} className="w-fit">
             <Button size={"lg"} variant={"link"} className="!pl-0">
               <FaLinkedin />M Khotami Rais
             </Button>
           </a>
-          <a href={c.links.github}>
+          <a href={c.links.github} className="w-fit">
             <Button size={"lg"} variant={"link"} className="!pl-0">
               <FaGithub />
               mkhotamirais

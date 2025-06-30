@@ -2,14 +2,20 @@ import Logo from "@/components/Logo";
 import NavDesktop from "./NavDesktop";
 import NavMobile from "./NavMobile";
 import { ThemeToggle } from "./ThemeToggle";
+import Search from "@/components/Search";
+import { getAllPosts } from "@/lib/posts";
 
 export default function Header() {
+  const posts = getAllPosts();
   return (
-    <header className="h-16 sticky top-0 z-50 backdrop-blur-xs bg-white/30 dark:bg-black/30">
+    <header className={`h-16 sticky backdrop-blur-sm top-0 z-50 bg-white/80 dark:bg-black/80`}>
       <div className="container flex items-center justify-between">
         <Logo />
         <div className="flex items-center gap-2">
           <NavDesktop />
+          <Search posts={posts} />
+
+          {/* <Search /> */}
           <div className="hidden md:flex">
             <ThemeToggle />
           </div>
