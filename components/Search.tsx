@@ -52,7 +52,7 @@ export default function Search({ posts }: { posts: IPost[] }) {
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="p-0 border-none max-w-sm mx-auto [&>button]:hidden max-h-[50vh] bg-black/80 text-white">
+      <DialogContent className="p-0 border-none max-w-sm mx-auto [&>button]:hidden bg-black/80 text-white">
         <DialogHeader className="hidden">
           <DialogTitle>Are you absolutely sure?</DialogTitle>
           <DialogDescription></DialogDescription>
@@ -64,7 +64,7 @@ export default function Search({ posts }: { posts: IPost[] }) {
             onChange={(e) => onSearch(e.target.value)}
             className="w-full border py-2 px-3 rounded-md"
           />
-          <div className="border h-[70vh] overflow-y-scroll">
+          <div className="border h-[50vh] overflow-y-scroll">
             {filteredPosts?.length === 0 && filteredProjects?.length === 0 ? (
               <div className="p-2 text-muted-foreground">No result found</div>
             ) : null}
