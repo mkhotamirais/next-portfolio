@@ -52,7 +52,7 @@ export default function Search({ posts }: { posts: IPost[] }) {
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="p-0 border-none max-w-sm mx-auto [&>button]:hidden max-h-[70vh] bg-black/80 text-white">
+      <DialogContent className="p-0 border-none max-w-sm mx-auto [&>button]:hidden max-h-[50vh] bg-black/80 text-white">
         <DialogHeader className="hidden">
           <DialogTitle>Are you absolutely sure?</DialogTitle>
           <DialogDescription></DialogDescription>
