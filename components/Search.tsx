@@ -9,6 +9,7 @@ import { useDebouncedCallback } from "use-debounce";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogDescription,
   DialogHeader,
@@ -81,9 +82,11 @@ export default function Search({ posts }: { posts: IPost[] }) {
                 <h3 className={titleStyle}>Projects</h3>
                 <div className="p-2">
                   {filteredProjects.map((project, i) => (
-                    <Link href={project.url} key={i} className={linkStyle}>
-                      <p>{project.title}</p>
-                    </Link>
+                    <DialogClose key={i} asChild>
+                      <Link href={project.url} className={linkStyle}>
+                        <p>{project.title}</p>
+                      </Link>
+                    </DialogClose>
                   ))}
                 </div>
               </div>
@@ -94,9 +97,11 @@ export default function Search({ posts }: { posts: IPost[] }) {
                 <div className={titleStyle}>Posts</div>
                 <div className="p-2">
                   {filteredPosts?.map((posts, i) => (
-                    <Link href={`/posts/${posts.slug}`} key={i} className={linkStyle}>
-                      <p>{posts.meta.title}</p>
-                    </Link>
+                    <DialogClose key={i} asChild>
+                      <Link href={`/posts/${posts.slug}`} className={linkStyle}>
+                        <p>{posts.meta.title}</p>
+                      </Link>
+                    </DialogClose>
                   ))}
                 </div>
               </div>
