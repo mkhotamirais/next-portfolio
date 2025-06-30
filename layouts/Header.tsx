@@ -4,6 +4,7 @@ import NavMobile from "./NavMobile";
 import { ThemeToggle } from "./ThemeToggle";
 import Search from "@/components/Search";
 import { getAllPosts } from "@/lib/posts";
+import { Suspense } from "react";
 
 export default function Header() {
   const posts = getAllPosts();
@@ -13,7 +14,9 @@ export default function Header() {
         <Logo />
         <div className="flex items-center gap-2">
           <NavDesktop />
-          <Search posts={posts} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <Search posts={posts} />
+          </Suspense>
 
           {/* <Search /> */}
           <div className="hidden md:flex">
