@@ -14,7 +14,7 @@ export default function Header() {
         <Logo />
         <div className="flex items-center gap-2">
           <NavDesktop />
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={null}>
             <Search posts={posts} />
           </Suspense>
 
