@@ -45,3 +45,27 @@ Public Speaking adalah seni berbicara di depan umum.
 5. Hari 5: Debat atau opini spontan (jawab 1 pertanyaan)
 6. Hari 6: Presentasi singkat (struktur formal)
 7. Hari 7: Full performance: intro - isi - penutup (3-5 menit)
+
+## Tips
+1. Silakan bukan Silahkan.
+2. Eee, Emm ganti dengan Diam sejenak atau panjangkan huruf terakhir yang diucapkan.
+3. Ingat nama, setelah tanyakan nama, usahakan pertanyaan selanjutnya disertai namanya, tandi karakteristik fisik.
+4. Waktu dan tempat dipersilakan. harusnya "Kami persilakan", "Mari kita sambut dengan tepuk tangan meriah", "Time is yours"
+5. Yang terhormat untuk satu orang yang paling terhormat, sisanya dengan "yang kami hormati"
+6. ADLIB Speaking membantu kita improve saat lupa public speaking. contohnya lihat objek apapun langsung buat narasi spontan.
+7. Penutup: kesimpulan, kata harapan, terima kasih, quote.
+8. 7 gerakan tangan: Open body position, gerakan tangan memutar, finger poin, gabungkan dua telapak tangan, nice movement, cherry picking, gerakan tangan memanjang.
+9. Perbaiki public speaking: nobody is pefect but pravtice make perfect. Rekam, Review, Transcript.
+10. Even dan Even.
+11. Cue Card
+12. Verbal, Voice, Visual.
+13. Buka presentasi 3S: Silent, Smile, Scan. baru mulai
+14. Mindset positif.
+15. 3 audiens yange perlu ditatap: yang jawab salam, yang memperhatikan kamu, audiens dengan gesture feedback.
+16. Kalo ngga salah, harusnya dari apa yang saya pelajari atau "sepengetahuan saya"
+17. 4P: power, pitch (nada suara), pace (kecepatan), pouse.
+18. 3P: preparation, practice, perform
+19. keuntungan pouse/jeda: memberi audiens mencerna informasi, ciptakan kesan dramatis, membantu mengontrol emosi dan pernapasan.
+20. kunci utama public speaking: knowledge. mulut itu seperti keran, sedangkan otak seperti toren atau tandon, dan knowledge seperti air, semakin banyak air dalam torn semkin banyak juga air yang keluar dari keran, jadi dibanding paksakan diri untuk hapal apa yang akan disampaikan untuk public speaking, mending perbanyak pengetahuan yang bisa masuk ke otak kamu sehingga mulut bisa megeluarkan pengetahuan yang berisi.
+21. Penanya: baik, izin bertanya. gunakan "pada kesempatan ini dari apa yang saya simak ada hal hal yang ingin saya tanyakan". narasubmer: "terima kasih atas pertanyaannya, izinkan saya menjawab", gunakan, "terima kasih telah mengajukan pertanyaan yang menarik, dan jawaban saya adalah"
+22. 
